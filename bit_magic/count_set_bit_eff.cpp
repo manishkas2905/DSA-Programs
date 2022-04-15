@@ -22,8 +22,7 @@ int main()
 {
     int n;
     cout<<"Enter the number::";
-    // cin>>n;
-    n=5;
+    cin>>n;
     initial();
     cout<<count_sb(n);
     return 0;
